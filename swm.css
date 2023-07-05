@@ -1,0 +1,41 @@
+.sap-user-defined-slide-menu-in {
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  left: -300px;
+  animation: slide-in 0.5s forwards;
+  box-shadow: 4px 2px 8px #666666;
+
+}
+
+@keyframes slide-in {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.sap-user-defined-slide-menu-out {
+
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  position: relative;
+  left: 200px;
+  animation: slide-out 0.5s forwards;
+  box-shadow: 1.5px 0px 8px #666666;
+
+}
+
+@keyframes slide-out {
+  0% {
+    left: 0px;
+  }
+  100% {
+    left: -300px;
+  }
+}
